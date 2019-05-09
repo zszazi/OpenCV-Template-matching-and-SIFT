@@ -3,7 +3,9 @@
  
  ### Google colab [notebook link](https://colab.research.google.com/github/zszazi/MSD/blob/master/MSD_intern_final.ipynb)
  
-* I had some problem with accessing files in google colab even after wget the images from URL , so I downloaded a few images to my local machine and uploaded them to colab and ran the test*
+I had some problem with accessing files in google colab even after wget the images from URL , so I downloaded a few images to my local machine and uploaded them to colab and ran the test
+
+make sure to change the image file name to try with different images
 
 **I approached the problem in the below ways**
 1. If there is a template match
@@ -24,9 +26,9 @@
 
 6. TM_SQDIFF_NORMED
  
-%%time command was used to measure how long it took to run the algo
+**%%time** command was used to measure how long it took to run the algo
 
-min_val,max_val,min_loc,max_loc was used to get coordinates of match and print a rectangle around it
+min_val,max_val,min_loc,max_loc was used to get **coordinates of match** and print a rectangle around it
 
 **IMAGE**
 
@@ -109,3 +111,8 @@ The best among the results where from TM_SQDIFF_NORMED
 
 
 
+### TO DO 
+1. Multi Scale Template matching
+2. Template matching in video
+
+PS:All I used opencv before this project was to read and show the image, But during the 2 days I spent on this project helped me to learn a lot of opencv 
