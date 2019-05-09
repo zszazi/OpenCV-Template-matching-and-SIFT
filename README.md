@@ -89,6 +89,8 @@ Wall time: 7.39 µs
 *Run time* CPU times: user 5 µs, sys: 2 µs, total: 7 µs
 Wall time: 7.39 µs
 
+TM_CCORR AND TM_CCORR_NORMED were no where close to the match results
+
 ## Incase if the crop was not found
 
 The best among the results where from TM_SQDIFF_NORMED
@@ -100,6 +102,9 @@ The best among the results where from TM_SQDIFF_NORMED
 
 ![image](https://user-images.githubusercontent.com/41579863/57482671-e30cce80-72c2-11e9-957c-d9f119cb0c6d.png)
 
+*Run time* CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 7.63 µs
+
 **Multi template crop**
 
 ![image](https://user-images.githubusercontent.com/41579863/57482703-f28c1780-72c2-11e9-8ed2-fafa3f30419c.png)
@@ -108,11 +113,14 @@ The best among the results where from TM_SQDIFF_NORMED
 
 ![image](https://user-images.githubusercontent.com/41579863/57482752-10597c80-72c3-11e9-86a9-d91dbe3f0a7c.png)
 
+*Run time* CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 6.2 µs
 
 
 
 ### TO DO 
 1. Multi Scale Template matching
 2. Template matching in video
+3. unit tests
 
-PS:All I used opencv before this project was to read and show the image, But during the 2 days I spent on this project helped me to learn a lot of opencv 
+**PS**:All I used opencv before this project was to read and show the image, But during the 2 days I spent on this project helped me to learn a lot of opencv 
