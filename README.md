@@ -97,13 +97,13 @@ The best among the results where from TM_SQDIFF_NORMED
 
 ![image](https://user-images.githubusercontent.com/41579863/57482604-ae991280-72c2-11e9-8c7f-667c6e0c7b7f.png)
 
+*Run time* CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 7.63 µs
+
 ## Incase of multiple crop matches 
 **IMAGE**
 
 ![image](https://user-images.githubusercontent.com/41579863/57482671-e30cce80-72c2-11e9-957c-d9f119cb0c6d.png)
-
-*Run time* CPU times: user 5 µs, sys: 2 µs, total: 7 µs
-Wall time: 7.63 µs
 
 **Multi template crop**
 
