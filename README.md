@@ -45,6 +45,66 @@ min_val,max_val,min_loc,max_loc was used to get coordinates of match and print a
 *Run Time* CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
 Wall time: 9.06 µs
 
+## 2. TM_CCOEFF_NORMED
+![image](https://user-images.githubusercontent.com/41579863/57482101-6a594280-72c1-11e9-8e4e-cb835823aeb7.png)
+
+*Coordinates* (37, 12) (102, 199)
+
+*Run time* CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+ Wall time: 8.11 µs
+ 
+ 
+ ## 3. TM_CCORR
+ ![image](https://user-images.githubusercontent.com/41579863/57482207-a9879380-72c1-11e9-985c-4f12d5be8c83.png)
+ 
+*Coordinates* (116, 190) (0, 81)
+
+*Run time* CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 9.3 µs
+
+## 4. TM_CCORR_NORMED
+![image](https://user-images.githubusercontent.com/41579863/57482295-ed7a9880-72c1-11e9-981b-a446aa0f3072.png)
+ 
+*Coordinates* (50, 193) (0, 425)
+
+*Run time* CPU times: user 0 ns, sys: 8 µs, total: 8 µs
+Wall time: 14.8 µs
+
+## 5. TM_SQDIFF
+![image](https://user-images.githubusercontent.com/41579863/57482407-2b77bc80-72c2-11e9-9751-05a47910ab58.png)
+
+*Coordinates* (104, 199) (0, 54)
+
+*Run time* CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 7.39 µs
+
+## 6. TM_SQDIFF_NORMED
+
+![image](https://user-images.githubusercontent.com/41579863/57482484-5e21b500-72c2-11e9-8990-2dcb874eb293.png)
+
+*Coordinates* (103, 199) (0, 0)
+
+*Run time* CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 7.39 µs
+
+## Incase if the crop was not found
+
+The best among the results where from TM_SQDIFF_NORMED
+
+![image](https://user-images.githubusercontent.com/41579863/57482604-ae991280-72c2-11e9-8c7f-667c6e0c7b7f.png)
+
+## Incase of multiple crop matches 
+**IMAGE**
+
+![image](https://user-images.githubusercontent.com/41579863/57482671-e30cce80-72c2-11e9-957c-d9f119cb0c6d.png)
+
+**Multi template crop**
+
+![image](https://user-images.githubusercontent.com/41579863/57482703-f28c1780-72c2-11e9-8ed2-fafa3f30419c.png)
+
+**Results**
+
+![image](https://user-images.githubusercontent.com/41579863/57482752-10597c80-72c3-11e9-86a9-d91dbe3f0a7c.png)
 
 
 
