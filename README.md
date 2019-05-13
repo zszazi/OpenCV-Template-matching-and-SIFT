@@ -1,6 +1,6 @@
 # MSD internship
 
-# I used the following Algorithms 
+## I used the following Algorithms 
 
 ## 1. SIFT(Scale-invariant feature transform) Feature Matching
 
@@ -19,6 +19,30 @@ make sure to change the image file name to try with different images
 
 # 1. SIFT Feature Matching
 Can find the match even if image is rotated or differently oriented
+
+**Image**
+
+![image](https://user-images.githubusercontent.com/41579863/57636447-c4f6e500-75c6-11e9-8a5a-8b1732aaf01b.png)
+
+**Crop**
+
+![image](https://user-images.githubusercontent.com/41579863/57637141-4733d900-75c8-11e9-804e-4f8af21309bb.png)
+
+**After Performing SIFT**
+
+![image](https://user-images.githubusercontent.com/41579863/57637197-6468a780-75c8-11e9-918f-ed96f220a739.png)
+
+![image](https://user-images.githubusercontent.com/41579863/57637229-819d7600-75c8-11e9-8375-50e49b7b2c21.png)
+
+### Another Advantage of SIFT is that even if the template is rotated still it finds the match
+
+ **Rotate Crop by 90 degrees**
+ 
+ ![image](https://user-images.githubusercontent.com/41579863/57637320-c2958a80-75c8-11e9-95ae-3115d6f07d1a.png)
+ 
+ **Result**
+ 
+ ![image](https://user-images.githubusercontent.com/41579863/57637351-d6d98780-75c8-11e9-88c7-30585b84b439.png)
 
 # 2. Template Matching
 
