@@ -1,11 +1,26 @@
 # MSD internship
- ### If the notebook is not rendered in Github click on this link to view notebook [nb viewer link](https://nbviewer.jupyter.org/github/zszazi/MSD/blob/master/MSD_intern_final.ipynb)
+
+# I used the following Algorithms 
+
+## 1. SIFT(Scale-invariant feature transform) Feature Matching
+
+### If the notebook is not rendered in Github click on this link to view notebook [SIFT feature Matching nb viewer link](https://nbviewer.jupyter.org/github/zszazi/MSD/blob/master/SIFT_feature_matching.ipynb)
  
- ### Google colab [notebook link](https://colab.research.google.com/github/zszazi/MSD/blob/master/MSD_intern_final.ipynb)
+ ### Google colab [notebook link](https://colab.research.google.com/github/zszazi/MSD/blob/master/SIFT_feature_matching.ipynb)
+
+## 2. Template Matching 
+ ### If the notebook is not rendered in Github click on this link to view notebook [Template Matching nb viewer link](https://nbviewer.jupyter.org/github/zszazi/MSD/blob/master/template_matching.ipynb)
+ 
+ ### Google colab [notebook link](https://colab.research.google.com/github/zszazi/MSD/blob/master/template_matching.ipynb)
  
 I had some problem with accessing files in google colab even after wget the images from URL , so I downloaded a few images to my local machine and uploaded them to colab and ran the test
 
 make sure to change the image file name to try with different images
+
+# 1. SIFT Feature Matching
+Can find the match even if image is rotated or differently oriented
+
+# 2. Template Matching
 
 **I approached the problem in the below ways**
 1. If there is a template match
