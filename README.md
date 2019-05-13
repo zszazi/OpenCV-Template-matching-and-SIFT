@@ -1,6 +1,8 @@
 # MSD internship
 
 ## I used the following Algorithms 
+### 1. SIFT(Scale-invariant feature transform)
+### 2. Template Matching 
 
 ## 1. SIFT(Scale-invariant feature transform) Feature Matching
 
@@ -34,6 +36,9 @@ Can find the match even if image is rotated or differently oriented
 
 ![image](https://user-images.githubusercontent.com/41579863/57637229-819d7600-75c8-11e9-8375-50e49b7b2c21.png)
 
+*Runtime* CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.2 µs
+
 ### Another Advantage of SIFT is that even if the template is rotated still it finds the match
 
  **Rotate Crop by 90 degrees**
@@ -43,6 +48,15 @@ Can find the match even if image is rotated or differently oriented
  **Result**
  
  ![image](https://user-images.githubusercontent.com/41579863/57637351-d6d98780-75c8-11e9-88c7-30585b84b439.png)
+ 
+ We can clearly see that even though the image template has been rotated yet it captured the match in the image, although the back leg has not been matched
+ 
+ The above undetected back leg can be solved by increasing the threshold although the noise make it indistinguishable
+ 
+ **Results**
+ 
+ ![image](https://user-images.githubusercontent.com/41579863/57637453-186a3280-75c9-11e9-855c-89ca686b331b.png)
+
 
 # 2. Template Matching
 
@@ -160,6 +174,6 @@ Wall time: 6.2 µs
 ### TO DO 
 1. Multi Scale Template matching
 2. Template matching in video
-3. unit tests
+
 
  
