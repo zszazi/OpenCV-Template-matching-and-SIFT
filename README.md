@@ -1,4 +1,4 @@
-# MSD internship
+
 
 ## I used the following Algorithms 
 ### 1. SIFT(Scale-invariant feature transform)
